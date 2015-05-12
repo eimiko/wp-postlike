@@ -1,0 +1,19 @@
+.action-item{
+    display: inline-block;
+    font-size:12px;
+    padding: 3px 8px;
+    margin:5px;
+    border:1px rgba(0,0,0,.15) solid;
+    color:rgba(0,0,0,0.3);
+    width: 60px;
+    cursor: pointer;
+}
+.action-item.is-active , .action-item:hover{
+    background-color: #3b5998;
+    border-color:#3b5998;
+    color:#fff;
+}
+#post-action{
+    text-align: center;
+    margin:10px 0;
+}
